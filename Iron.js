@@ -6,7 +6,7 @@ class Iron {
           'density':30
       }
       this.body = Bodies.rectangle(x, y, 50, 50, options);
-      this.width = 80;
+      this.width = 50;
       this.height = 50;
       
       World.add(world, this.body);
